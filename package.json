@@ -1,25 +1,28 @@
 {
-  "name": "vanilla-react",
+  "name": "adopt-me",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "The Adopt Me pet adoption app",
+  "main": "src/index.js",
   "scripts": {
-    "dev": "parcel src/index.html",
     "format": "prettier --write \"src/**/*.{js,jsx}\"",
-    "lint": "eslint \"src/**/*.{js,jsx}\" --quiet"
+    "lint": "eslint \"src/**/*.{js,jsx}\" --quiet",
+    "dev": "parcel src/index.html"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "Brian Holt <btholt+citrv6@gmail.com>",
+  "license": "Apache-2.0",
   "devDependencies": {
-    "@babel/core": "^7.12.16",
-    "@babel/preset-react": "^7.12.13",
-    "eslint": "^7.18.0",
-    "eslint-config-prettier": "^8.1.0",
-    "parcel": "^1.12.3",
-    "prettier": "^2.5.1"
+    "@babel/core": "^7.16.5",
+    "@babel/preset-react": "^7.16.5",
+    "eslint": "7.18.0",
+    "eslint-config-prettier": "8.1.0",
+    "parcel": "1.12.3",
+    "prettier": "2.2.1"
   },
   "dependencies": {
-    "react": "^17.0.1",
-    "react-dom": "^17.0.1"
-  }
+    "react": "17.0.1",
+    "react-dom": "17.0.1"
+  },
+  "browserslist": [
+    "last 2 Chrome versions"
+  ]
 }
