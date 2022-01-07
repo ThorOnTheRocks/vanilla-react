@@ -4532,7 +4532,7 @@
   "resolved" "https://registry.npmjs.org/pako/-/pako-1.0.11.tgz"
   "version" "1.0.11"
 
-"parcel-bundler@^1.12.5":
+"parcel-bundler@^1.12.3":
   "integrity" "sha512-hpku8mW67U6PXQIenW6NBbphBOMb8XzW6B9r093DUhYj5GN2FUB/CXCiz5hKoPYUsusZ35BpProH8AUF9bh5IQ=="
   "resolved" "https://registry.npmjs.org/parcel-bundler/-/parcel-bundler-1.12.5.tgz"
   "version" "1.12.5"
