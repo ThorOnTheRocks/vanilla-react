@@ -5,7 +5,7 @@
 
 body {
   background-color: #81a69b;
-  background: url('http://pets-images.dev-apis.com/pets/wallpaperB.jpg');
+  background: url("http://pets-images.dev-apis.com/pets/wallpaperB.jpg");
   margin: 0;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
@@ -33,6 +33,14 @@ body {
   padding: 15px;
   float: left;
   margin-bottom: 25px;
+}
+
+.btn-container {
+  display: flex;
+}
+
+.btn {
+  min-width: 100px;
 }
 
 .details {
@@ -187,6 +195,7 @@ header {
   width: 325px;
 }
 
+.search button,
 .search-params button,
 #modal button,
 .details button {
