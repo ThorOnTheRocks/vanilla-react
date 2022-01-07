@@ -7,7 +7,7 @@
     "format": "prettier --write \"src/**/*.{js,jsx}\"",
     "lint": "eslint \"src/**/*.{js,jsx}\" --quiet",
     "dev": "parcel src/index.html",
-    "build": "parcel build index.html"
+    "build": "parcel build \"src/index.html\""
   },
   "author": "Brian Holt <btholt+citrv6@gmail.com>",
   "license": "Apache-2.0",
